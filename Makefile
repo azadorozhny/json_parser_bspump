@@ -4,3 +4,5 @@ conda-export:
 db:
 	docker-compose up -d mongodb
 
+run:
+	docker-compose up -d
